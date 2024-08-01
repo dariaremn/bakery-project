@@ -1,1 +1,109 @@
 @import'/styles/reset.css';
+.page-wrapper {
+}
+.nav {
+    
+    background: url(/photo_2022-06-05_13-14-26\ 1\ \(1\).png) no-repeat center/cover;
+}
+.nav-ul {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(226, 224, 224);
+    font-size: 24px;
+    width: 558px;
+    height: 29px;
+    list-style: none;
+    padding-top: 55px;
+    padding-left: 156px;
+    font-weight: small;
+}
+.nav-ul-li {
+}
+.nav-h2 {
+    padding-top: 155px;
+    padding-left: 146px;
+    font-size: 70px;
+    color: aliceblue;
+    width: 561px;
+    height: 170px;
+}
+.nav-p {
+    font-size: 21px;
+    color: aliceblue;
+    width: 570px;
+    height: 200px;
+    padding-top: 100px;
+    padding-left: 160px;
+}
+.nav-btn {
+    
+    border-radius: 15px;
+    background: #B47B48;
+    padding: 7px;
+    width: 207px;
+    height: 57px;
+    font-size: 24px;
+    color: aliceblue;
+    margin-top: 33px;
+    margin-left: 157px;
+    border: none;
+
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 125px;
+    row-gap: 96px;
+}
+
+.nav-first-card {
+    
+    margin-bottom: 300px;
+    border: 1px solid black;
+    background: #272727;
+    width: 310px;
+    height: 225px;
+    color: aliceblue;
+
+    
+}
+.nav-first-card::before{
+    background: url(/Без\ названия.jpeg) no-repeat center/cover;
+}
+.-card-span {
+    font-size: 24px;
+
+}
+.card-h6 {
+    font-size: 16px;
+}
+.card-button {
+    background: #C85312;
+    font-size: 16px;
+    border: none;
+    width: 79px;
+    height: 34px;
+    color: aliceblue;
+}
+.nav-second-card {
+    
+    margin-bottom: 300px;
+    border: 1px solid black;
+    background: #272727;
+    width: 310px;
+    height: 225px;
+    color: aliceblue;
+
+    
+}
+.nav-third-card {
+    
+    margin-bottom: 300px;
+    border: 1px solid black;
+    background: #272727;
+    width: 310px;
+    height: 225px;
+    color: aliceblue;
+
+    
+}
