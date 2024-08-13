@@ -97,7 +97,6 @@
 .card-h6-2{
 margin-left: 200px;
 font-size: 14px;
-margin-top: 60px;
 }
 
 .-card-span-2{
@@ -190,11 +189,18 @@ margin-right: 500px;
     margin-top: 80px;
     margin-left: 100px;
 }
+.-card-span-2 .-card-span-{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.money-cards-nav{
+    margin-bottom: 10px;
+}
 .nav-text-2 {
     position: absolute;
-    padding-left: 60px;
-    padding-bottom: 20px;
-    margin-top: 80px;
+    padding-left: 96px;
+    padding-bottom: 26px;
+    margin-top: 72px;
     margin-left: -100px;
 }
 .nav-text-3 {
@@ -436,7 +442,7 @@ margin-left: -255px;
     margin-bottom: 50px;
 }
 .traditional-bakery {
-    background: url(/photo_2022-06-23_21-45-36\ 1.jpg) no-repeat center/cover;
+    background: url(/main-bg-quality.png) no-repeat center/cover;
     display: flex;
 
 
@@ -594,4 +600,8 @@ color: #F2F2F2;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight:300;
+}
+.-card-span-2{
+    font-size: 24px;
+    margin-bottom: 10px;
 }
