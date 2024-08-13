@@ -1,4 +1,6 @@
 @import'/styles/reset.css';
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chocolate+Classical+Sans&family=Italiana&family=Noto+Sans+Hanunoo&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 .page-wrapper {
 }
 .nav {
@@ -16,6 +18,11 @@
     padding-top: 55px;
     padding-left: 156px;
     font-weight: small;
+    font-weight:200;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:200;
+    font-style: normal;
 }
 .nav-ul-li {
 }
@@ -26,6 +33,12 @@
     color: aliceblue;
     width: 561px;
     height: 170px;
+    font-weight:200;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight:200;
+        font-style: normal;
+      
 }
 .nav-p {
     font-size: 21px;
@@ -34,6 +47,11 @@
     height: 200px;
     padding-top: 100px;
     padding-left: 160px;
+    font-weight:200;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:200;
+    font-style: normal;
 }
 .nav-btn {
     
@@ -47,13 +65,22 @@
     margin-top: 33px;
     margin-left: 157px;
     border: none;
-
+    font-weight:200;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight:200;
+        font-style: normal;
 }
 .cards{
     display: flex;
     justify-content: space-around;
     margin-top: 125px;
     row-gap: 96px;
+    font-weight:200;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:200;
+    font-style: normal;
 }
 
 .nav-first-card {
@@ -67,15 +94,32 @@
 
     
 }
-.nav-first-card::before{
-    background: url(/Без\ названия.jpeg) no-repeat center/cover;
+.card-h6-2{
+margin-left: 200px;
+font-size: 14px;
+margin-top: 60px;
 }
-.-card-span {
-    font-size: 24px;
 
+.-card-span-2{
+
+    margin-left: 200px;
+    padding-bottom: -300px;
+}
+.nav-img-2{
+    margin-left: -15px;
+}
+.nav-img{
+
+
+}
+.card-span {
+    font-size: 24px;
+    padding-top: 31px;
 }
 .card-h6 {
     font-size: 16px;
+    display: flex;
+    flex-wrap: wrap;
 }
 .card-button {
     background: #C85312;
@@ -84,6 +128,20 @@
     width: 79px;
     height: 34px;
     color: aliceblue;
+    margin-top: 35px;
+}
+.-card-span-2{
+   margin-top: 400px;
+}
+.card-button-2 {
+    background: #C85312;
+    font-size: 16px;
+    border: none;
+    width: 79px;
+    height: 34px;
+    color: aliceblue;
+    margin-top: 35px;
+    margin-left: 200px;
 }
 .nav-second-card {
     
@@ -106,4 +164,434 @@
     color: aliceblue;
 
     
+}
+.nav-img-1 {
+    position: absolute;
+margin-bottom: 200px;
+margin-right: 500px;
+}
+.nav-img-2 {
+    position: absolute;
+margin-bottom: 200px;
+margin-right: 500px;
+}
+.nav-img-3 {
+    position: absolute;
+margin-bottom: 200px;
+margin-right: 500px;
+}
+.money-cards-nav{
+    font-size: 24px;
+}
+.nav-text-1 {
+    position: absolute;
+    padding-left: 60px;
+    padding-bottom: 20px;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+.nav-text-2 {
+    position: absolute;
+    padding-left: 60px;
+    padding-bottom: 20px;
+    margin-top: 80px;
+    margin-left: -100px;
+}
+.nav-text-3 {
+    position: absolute;
+    padding-left: 60px;
+    padding-bottom: 20px;
+    margin-top: 80px;
+    margin-left: 130px;
+}
+.menu {
+    background: #202023;
+
+}
+.menu-h2 {
+    font-weight:200;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:200;
+    font-style: normal;
+    font-size: 64px;
+    margin-left: 40%;
+    color: aliceblue;
+}
+.cards-menu {
+    display: flex;
+justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.card-first-menu {
+    margin-left: 275px;
+    
+}
+.border-menu {
+    border: 1px solid white;
+    width: 328px;
+    height: 229px;
+}
+.img-menu-1 {
+    margin-left: 18px;
+    margin-top: 10px;
+}
+.img-menu-3{
+    margin-top: -25px;
+    margin-left:  35px
+}
+.menu-span {
+    margin-top: 30px;
+    margin-left: 120px;
+    font-size: 26px;
+    color: aliceblue;
+    font-weight:200;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:300;
+    font-style: normal;
+}
+.menu-span-3{
+    position: absolute;
+    color: azure;
+    color: aliceblue;
+    font-weight:200;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:300;
+    font-style: normal;
+    margin-top: 200px;
+    margin-left: -220px;
+    font-size: 26px;
+}
+.button-menu {
+    border-radius: 15px;
+    color: aliceblue;
+    background: #B47B48;
+    width: 160px;
+    height: 41px;
+    font-size: 26px;
+    border: none;
+    font-weight: 400px;
+    margin-left: 85px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.card-second-menu {
+    margin-right: 311px;
+}
+.card-third-menu {
+    margin-left: 275px;
+}
+.card-fourth-menu {
+    margin-right: 311px;
+}
+.img-menu-3-2{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: -250px;
+}
+.img-menu-4-2{
+position: absolute;
+margin-top: 65px;
+margin-left: -255px;
+}
+.img-menu-4{
+    margin-left: 70px;
+    
+}
+.img-menu-2-2{
+    position: absolute;
+    margin-top: -30px;
+    margin-left: -120px;
+}
+.img-menu-2-3{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: -95px;
+}
+.menu-span-4{
+    position: absolute;
+
+    font-size: 26px;
+    color: aliceblue;
+    font-weight:200;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:300;
+    font-style: normal;
+    margin-top: 200px;
+    margin-left: -220px; 
+}
+.quality-our-bekary {
+
+    background: #202023;
+}
+.Quality-our-bekary-h2{
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: aliceblue;
+    font-size: 64px;
+    padding-left: 594px;
+    padding-top: 90px;
+
+
+}
+.cards-qob{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background: url(/Group\ 25\ \(1\).png) repeat-x bottom;
+
+}
+.first-card-qob {
+    position: relative;
+    margin-top: 150px;
+
+}
+.foto-1-qob {
+    width: 300px;
+    height: 223px;
+    display: block;
+    margin-top: -200px;
+    margin-left: 200px;
+}
+.text-qob {
+    position: absolute;
+    bottom: 20px;
+    margin-left: 221px ;
+    border: 2px solid #F2F2F2;
+    margin-bottom: -100px;
+    font-size: 24px;
+    color: aliceblue;
+    background: rgb(96, 96, 96);
+    border: none;
+    list-style: none;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:300;
+    font-style: normal;
+    width: 292px;
+    height: 198px;
+    margin-bottom: -230px;
+    
+}
+.li-qob {
+
+}
+.second-card-qob {
+    margin-left: 50px;
+
+
+}
+.foto-2-qob {
+    margin-right: 200px;
+    padding-top: 149px;
+    width: 275px;
+    height: 284px;
+}
+.third-card-qob {
+
+    margin-right: 200px;
+}
+.foto-3-qob {
+    margin-top: 288px;
+    width: 334px;
+    height: 332px;
+
+}
+.text-qob-2{
+    position: absolute;
+    border: 2px solid #F2F2F2;
+    font-size: 24px;
+    color: aliceblue;
+    background: rgb(96, 96, 96);
+    border: none;
+    list-style: none;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:300;
+    font-style: normal;
+    width: 292px;
+    height: 198px;
+    
+}
+.text-qob-3{
+    position: relative;
+    border: 2px solid #F2F2F2;
+    font-size: 24px;
+    color: aliceblue;
+    background: rgb(96, 96, 96);
+    border: none;
+    list-style: none;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:300;
+    font-style: normal;
+    width: 292px;
+    height: 198px;
+    margin-bottom: 50px;
+}
+.traditional-bakery {
+    background: url(/photo_2022-06-23_21-45-36\ 1.jpg) no-repeat center/cover;
+    display: flex;
+
+
+}
+.first-traditinal {
+    width: 200px;
+    height: 200px;
+    padding-top:301px ;
+    margin-left: -400px;
+}
+.second-tradition {
+width: 200px;
+height: 200px;
+    padding-top: 288px;
+    margin-right: 100px;
+}
+.third-tradition {
+    margin-top: 301px;
+padding-right: 147px;
+padding-bottom: 117px;
+width: 200px;
+height: 200px
+}
+.h2-traditional-bakery{
+   color: white;
+   font-family: "Italiana", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   margin-left: 165px;
+   margin-top: 55px;
+   font-size: 48px;
+   width: 735px;
+   height: 114px;
+}
+.first-tradion-div{
+margin-left: -270px;
+}
+.first-tradition-p{
+color: white;
+font-size: 24px;
+font-family: "Inter", sans-serif;
+font-optical-sizing: auto;
+font-weight:300;
+font-style: normal;
+margin-top: 20px;
+margin-left: -400px;
+
+}
+.second-tradition-p{
+color: aliceblue;
+font-size: 24px;
+font-family: "Inter", sans-serif;
+font-optical-sizing: auto;
+font-weight:300;
+font-style: normal;
+margin-top: 30px;
+margin-bottom: 100px;
+}
+.third-tradition-p{
+font-size: 24px;
+color: white;
+font-family: "Inter", sans-serif;
+font-optical-sizing: auto;
+font-weight:300;
+font-style: normal;
+padding-right: 147px;
+margin-top: -100px;
+}
+.third-tradition-div{
+    margin-left: 260px;
+}
+.second-tradition-div{
+    margin-left: 130px;
+}
+.where {
+    background: #202023;
+
+
+}
+.where-map {
+    width: 535px;
+    height: 487px;
+    margin-left:160px ;
+    margin-top: 170px;
+
+}
+.h1-footer-where {
+    position: absolute;
+    color: #ffffff;
+    font-size: 48px;
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: -105px;
+    margin-left: 6px;
+}
+.how {
+
+
+}
+.how-footer {
+font-size: 40px;
+color: #F2F2F2;
+}
+.how-tel {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:300;
+    font-size: 24px;
+    margin-top: 773px;
+    margin-left: 980px;
+    text-decoration: none;
+}
+.tik-tok-foote {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:300;
+    font-size: 24px;
+    margin-top: 367px;
+    margin-left: 980px;
+    text-decoration: none;
+}
+.inst-footer {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:300;
+    font-size: 24px;
+    margin-top: 900px;
+    margin-left: 980px;
+    text-decoration: none;
+}
+.how-footer-div{
+    margin-left: -100px;
+    margin-top: -400px;
+    font-size: 24px;
+}
+.when-footer {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:300;
+
+}
+.h2-when-footer {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:300;
+}
+.when-p {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:300;
 }
